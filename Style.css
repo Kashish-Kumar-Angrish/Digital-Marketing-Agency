@@ -184,3 +184,24 @@ body {
     width: 70%;
     font-size: 2rem;
 }
+
+@media screen and (max-width: 979px) {
+    .nav {
+        display: none;
+    }
+
+    .center {
+        position: relative;
+    }
+
+    .center-1 {
+        position: absolute;
+        perspective: 100px;
+        z-index: 5;
+    }
+
+    .center2 {
+        position: absolute;
+        right: 0;
+    }
+}
