@@ -200,8 +200,29 @@ body {
         z-index: 5;
     }
 
+    .center-1 p {
+        width: 400px;
+        height: 100%;
+    }
+
     .center2 {
         position: absolute;
         right: 0;
+    }
+}
+
+
+@media screen and (max-width: 900px) {
+    .brands {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 0;
+    }
+}
+
+@media screen and (max-width: 815px) {
+    .grid {
+        display: flex;
+        flex-direction: column;
     }
 }
