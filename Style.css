@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    color: black;
+    padding: 10px 50px;
+}
+
+.cursor {
+    height: 15px;
+    width: 15px;
+    background-color: black;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1;
+}
+
+.main {
+    padding: 20px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main i {
+    rotate: 45deg;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.nav button {
+    height: 40px;
+    width: 150px;
+    padding: 20px, 40px;
+    font-weight: 600;
+    border: 2px solid black;
+    background-color: #111;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 0.9rem;
+}
+
+.center {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /*    background-color: orange;**/
+
+}
+
+.center-1 {
+    width: 47%;
+    height: 100%;
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.center-1 h1 {
+    font-size: 4rem;
+}
+
+.center-1 p {
+    font-size: 1.2rem;
+    padding-bottom: 10px;
+}
+
+.center button {
+    padding: 10px 40px;
+    width: fit-content;
+    border-radius: 10px;
+    background-color: #111;
+    color: #fff;
+}
+
+
+.center2 {
+    height: 100%;
+    width: 50%;
+    position: relative;
+}
+
+.center2 img {
+    position: absolute;
+    right: 0;
+}
+
+.brands {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.brands img {
+    height: 50px;
+    width: 100px;
+    background-color: white;
+    margin: 100px 10px;
+}
+
+.services {
+    display: flex;
+    width: 60%;
+    gap: 20px;
+}
+
+.services h1 {
+    background-color: green;
+    width: fit-content;
+}
+
+.services p {
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+.box {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box img {
+    height: 150px;
+    width: 150px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.content i {
+    background-color: black;
+    color: #fff;
+    height: 20px;
+    width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.content h4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.3rem;
+
+}
+
+.content h2 {
+    width: 70%;
+    font-size: 2rem;
+}
